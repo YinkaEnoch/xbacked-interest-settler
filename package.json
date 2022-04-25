@@ -1,0 +1,30 @@
+{
+  "name": "xbacked-interest-settler",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon runner.js",
+    "start": "node runner.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YinkaEnoch/xbacked-interest-settler.git"
+  },
+  "keywords": [],
+  "author": "Yinka Enoch Adedokun <adedokunyinkaenoch@gmail.com> (https://yinkaenoch.github.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YinkaEnoch/xbacked-interest-settler/issues"
+  },
+  "homepage": "https://github.com/YinkaEnoch/xbacked-interest-settler#readme",
+  "dependencies": {
+    "@xbacked-dao/xbacked-sdk": "^0.0.30",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
